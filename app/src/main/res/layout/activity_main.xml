@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_img">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        tools:context=".MainActivity"
+        android:alpha="0.7"
+        ></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:padding="28dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_eco"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EcoRecicla"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="32sp"
+                android:textColor="@color/my_primary"
+                android:layout_marginTop="12sp"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:cardCornerRadius="28dp"
+            android:layout_marginBottom="-20dp"
+            android:id="@+id/card_view"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="28dp"
+                android:alpha="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bienvenido"
+                    android:textColor="@color/my_primary"
+                    android:textSize="32sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inicie sesión a continuación"
+                    android:alpha="0.7"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Correo electrónico"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:drawableEnd="@drawable/done_icon"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contraseña"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:drawableEnd="@drawable/password_icon"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Recordarme"
+                        android:layout_centerVertical="true"
+                        android:alpha="0.7"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Olvide mi contraseña"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Aún no tienes cuenta? Registrate aquí"
+                    android:id="@+id/button_register"
+                    android:textAlignment="center"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_navigate"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Iniciar sesión"
+                    app:cornerRadius="32dp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O inicie sesión con"
+                    android:layout_gravity="center"
+                    android:alpha="0.7"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="12dp"
+                        android:background="@drawable/fb"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="12dp"
+                        android:background="@drawable/google"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="12dp"
+                        android:background="@drawable/twitter"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

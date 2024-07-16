@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrarse"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/back_registrarse"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/back_icon"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:tint="@color/my_primary"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrarse"
+                android:textColor="@color/my_primary"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por favor ingrese los siguientes datos para registrarse"
+            android:alpha="0.7"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:drawableEnd="@drawable/done_icon"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:drawableEnd="@drawable/done_icon"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableEnd="@drawable/done_icon"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/password_icon"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar contraseña"
+            android:alpha="0.7"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/password_icon"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acepto los terminos y condiciones"
+            android:layout_centerVertical="true"
+            android:alpha="0.7"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Registrarse"
+            android:id="@+id/button_register"
+            app:cornerRadius="32dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O registrese con"
+            android:layout_gravity="center"
+            android:alpha="0.7"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/fb"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/google"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/twitter"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
