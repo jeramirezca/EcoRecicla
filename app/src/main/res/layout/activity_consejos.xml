@@ -7,25 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".Estadisticas"
     android:background="@color/white">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="28dp">
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                >
-
+                android:layout_height="wrap_content">
                 <ImageView
                     android:id="@+id/back_button"
                     android:layout_width="32dp"
@@ -33,9 +25,7 @@
                     android:src="@drawable/back_icon"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    app:tint="@color/my_primary"
-                    />
-
+                    app:tint="@color/my_primary"/>
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
@@ -45,14 +35,11 @@
                     android:textSize="32sp"
                     android:textStyle="bold"
                     android:layout_centerInParent="true"/>
-
             </RelativeLayout>
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <TextView
                     android:id="@+id/total_recycled_label"
                     android:layout_width="wrap_content"
@@ -63,7 +50,6 @@
                     android:textColor="@color/my_secondary"
                     app:layout_constraintStart_toStartOf="parent"
                     android:layout_marginTop="16dp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -73,16 +59,14 @@
                     app:layout_constraintTop_toBottomOf="@id/title"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="16dp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Has reciclado 2 kg de plástico este mes. ¡Buen trabajo! Intenta reducir el uso de plásticos de un solo uso llevando tu propia botella reutilizable.Esta semana has reciclado más botellas plásticas. ¿Sabías que aplastar las botellas reduce el espacio que ocupan?"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     app:layout_constraintTop_toBottomOf="@id/title"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="8dp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -92,16 +76,14 @@
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/title" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Has reciclado 2 kg de plástico este mes. ¡Buen trabajo! Intenta reducir el uso de plásticos de un solo uso llevando tu propia botella reutilizable.Esta semana has reciclado más botellas plásticas. ¿Sabías que aplastar las botellas reduce el espacio que ocupan?"
-                    android:textSize="18sp"
+                    android:text="..."
+                    android:textSize="16sp"
                     app:layout_constraintTop_toBottomOf="@id/title"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="8dp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -111,16 +93,14 @@
                     app:layout_constraintTop_toBottomOf="@id/title"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="16dp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Has reciclado 2 kg de plástico este mes. ¡Buen trabajo! Intenta reducir el uso de plásticos de un solo uso llevando tu propia botella reutilizable.Esta semana has reciclado más botellas plásticas. ¿Sabías que aplastar las botellas reduce el espacio que ocupan?"
+                    android:text="..."
                     android:textSize="18sp"
                     app:layout_constraintTop_toBottomOf="@id/title"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="8dp"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -130,20 +110,14 @@
                     android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent" />
-
                 <ListView
                     android:id="@+id/list_view"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:layout_marginTop="10dp"
                     android:divider="@color/my_primary"
-                    android:dividerHeight="2dp"
-                    />
-
+                    android:dividerHeight="2dp"/>
             </LinearLayout>
-
         </LinearLayout>
-
     </RelativeLayout>
-
 </ScrollView>

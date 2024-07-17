@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Consejos">
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -14,24 +13,19 @@
         android:layout_height="match_parent"
         android:background="@color/background_color"
         tools:context=".MainActivity">
-
         <View
             android:id="@+id/top_view"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:background="@drawable/bg_view"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="28dp">
-
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-
+            android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/back_button"
                 android:layout_width="32dp"
@@ -42,7 +36,6 @@
                 android:layout_centerVertical="true"
                 app:tint="@color/background_color"
                 />
-
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
@@ -52,21 +45,17 @@
                 android:textSize="32sp"
                 android:textStyle="bold"
                 android:layout_centerInParent="true"/>
-
         </RelativeLayout>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:layout_marginTop="24dp"
-            android:textSize="16dp"
+            android:textSize="24dp"
             android:text="Selecciona la categoría a la que le quieres crear un nuevo registro de reciclaje."
             android:paddingHorizontal="24dp"/>
-
         </LinearLayout>
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -76,33 +65,26 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_marginTop="-60dp">
-
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="12dp"
                 android:layout_columnWeight="1"
-                android:layout_row="1"
-                android:layout_column="0"
-                android:layout_margin="12dp"
-                >
-
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_margin="12dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:id="@+id/button_paper">
-
                     <ImageView
                         android:layout_width="58dp"
                         android:layout_height="80dp"
                         android:src="@drawable/paper_icon"
-                        android:layout_gravity="center_horizontal"
-
-                        />
-
+                        android:layout_gravity="center_horizontal" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -111,10 +93,7 @@
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/my_primary"/>
-
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -123,25 +102,19 @@
                 app:cardElevation="12dp"
                 android:layout_columnWeight="1"
                 android:layout_row="1"
-                android:layout_column="1"
-                android:layout_margin="12dp"
-                >
-
+                android:layout_column="0"
+                android:layout_margin="12dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:id="@+id/button_organic">
-
                     <ImageView
                         android:layout_width="58dp"
                         android:layout_height="80dp"
                         android:src="@drawable/organic_icon2"
-                        android:layout_gravity="center_horizontal"
-
-                        />
-
+                        android:layout_gravity="center_horizontal" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -150,10 +123,7 @@
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:textColor="@color/my_primary"/>
-
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -163,24 +133,18 @@
                 android:layout_columnWeight="1"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:layout_margin="12dp"
-                >
-
+                android:layout_margin="12dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:id="@+id/button_plastic">
-
                     <ImageView
                         android:layout_width="58dp"
                         android:layout_height="80dp"
                         android:src="@drawable/plastic_icon"
-                        android:layout_gravity="center_horizontal"
-
-                        />
-
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -188,56 +152,9 @@
                         android:layout_gravity="center_horizontal"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="@color/my_primary"
-                        />
-
-                </LinearLayout>
-
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="12dp"
-                android:layout_columnWeight="1"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_margin="12dp"
-                >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:id="@+id/button_glass">
-
-                    <ImageView
-                        android:layout_width="58dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/glass_icon"
-                        android:layout_gravity="center_horizontal"
-
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Vidrio"
-                        android:layout_gravity="center_horizontal"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
                         android:textColor="@color/my_primary"/>
-
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
-
         </GridLayout>
-
     </RelativeLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

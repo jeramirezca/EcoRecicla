@@ -31,7 +31,7 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nuevo registro papel o cartón"
+                    android:text="Nuevo registro plástico o metal"
                     android:textColor="@color/my_primary"
                     android:textSize="32sp"
                     android:textStyle="bold"
@@ -47,7 +47,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cantidad de hojas recicladas"
+                    android:text="Kilogramos reciclados"
                     android:alpha="0.7"
                     android:textStyle="bold"/>
                 <EditText
@@ -74,6 +74,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tipo"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Condición"
                     android:alpha="0.7"
                     android:textStyle="bold"/>
                 <EditText

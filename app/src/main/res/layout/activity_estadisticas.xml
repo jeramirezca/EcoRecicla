@@ -7,25 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".Estadisticas"
     android:background="@color/white">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="28dp">
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                >
-
+                android:layout_height="wrap_content">
                 <ImageView
                     android:id="@+id/back_stats"
                     android:layout_width="32dp"
@@ -33,9 +25,7 @@
                     android:src="@drawable/back_icon"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    app:tint="@color/my_primary"
-                    />
-
+                    app:tint="@color/my_primary" />
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
@@ -45,14 +35,11 @@
                     android:textSize="32sp"
                     android:textStyle="bold"
                     android:layout_centerInParent="true"/>
-
             </RelativeLayout>
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <TextView
                     android:id="@+id/total_recycled_label"
                     android:layout_width="wrap_content"
@@ -63,13 +50,10 @@
                     android:textColor="@color/my_secondary"
                     app:layout_constraintStart_toStartOf="parent"
                     android:layout_marginTop="16dp"/>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Plástico y metal: "
@@ -78,9 +62,7 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="120 kg"
@@ -88,15 +70,11 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Papel y carton: "
@@ -105,9 +83,7 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="20 hojas"
@@ -115,42 +91,11 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Vidrio: "
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="120 kg"
-                        android:textSize="18sp"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Orgánico: "
@@ -159,9 +104,7 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="120 kg"
@@ -169,12 +112,8 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                 </LinearLayout>
-
-
                 <TextView
-                    android:id="@+id/total_recycled_label2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -183,22 +122,60 @@
                     android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent" />
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
-
                     <TextView
-                        android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Plástico: "
+                        android:text="Plástico y metal: "
                         android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120 kg"
+                        android:textSize="18sp"
+                        app:layout_constraintTop_toBottomOf="@id/title"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginTop="16dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Papel y carton: "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/title"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginTop="16dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 hojas"
+                        android:textSize="18sp"
+                        app:layout_constraintTop_toBottomOf="@id/title"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginTop="16dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Orgánico: "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/title"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginTop="16dp"/>
                     <TextView
                         android:id="@+id/total_recycled_value"
                         android:layout_width="wrap_content"
@@ -208,115 +185,93 @@
                         app:layout_constraintTop_toBottomOf="@id/title"
                         app:layout_constraintEnd_toEndOf="parent"
                         android:layout_marginTop="16dp"/>
-
                 </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Plástico: "
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="120 kg"
-                        android:textSize="18sp"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Plástico: "
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="120 kg"
-                        android:textSize="18sp"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Plástico: "
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                    <TextView
-                        android:id="@+id/total_recycled_value"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="120 kg"
-                        android:textSize="18sp"
-                        app:layout_constraintTop_toBottomOf="@id/title"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        android:layout_marginTop="16dp"/>
-
-                </LinearLayout>
-
                 <TextView
                     android:id="@+id/total_recycled_label2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Promedio Reciclado"
+                    android:text="Mínimos y máximos Reciclado"
                     android:textColor="@color/my_secondary"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent" />
-
-
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1"
+                    android:padding="16dp"
+                    android:layout_marginTop="16dp">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/my_secondary">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tipo de material"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mínimo"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Máximo"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Papel"
+                            android:padding="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5 kg"
+                            android:padding="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 kg"
+                            android:padding="8dp"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Plástico"
+                            android:padding="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 kg"
+                            android:padding="8dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6 kg"
+                            android:padding="8dp"/>
+                    </TableRow>
+                </TableLayout>
             </LinearLayout>
-
-         
-
         </LinearLayout>
-
-
     </RelativeLayout>
-
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

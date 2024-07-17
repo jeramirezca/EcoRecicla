@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Landing">
-
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -14,22 +13,17 @@
         android:layout_height="match_parent"
         android:background="@color/background_color"
         tools:context=".MainActivity">
-
         <View
             android:id="@+id/top_view"
             android:layout_width="match_parent"
             android:layout_height="350dp"
-            android:background="@drawable/bg_view"
-            />
-
+            android:background="@drawable/bg_view" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-
             android:padding="28dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -38,20 +32,15 @@
                     android:layout_height="40dp"
                     android:src="@drawable/logout_icon"
                     android:id="@+id/button_logout"
-                    app:tint="@color/background_color"
-
-
-                    />
+                    app:tint="@color/background_color" />
             </LinearLayout>
-
-
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:src="@drawable/logo_eco"
-                android:background="@color/white"
+                android:background="@drawable/rounded_background"
+                android:padding="5dp"
                 android:layout_marginTop="16dp"/>
-
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
@@ -61,9 +50,7 @@
                 android:textSize="32sp"
                 android:textStyle="bold"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="16dp"
-                />
-
+                android:layout_marginTop="16dp" />
             <TextView
                 android:id="@+id/text2"
                 android:layout_width="wrap_content"
@@ -72,11 +59,8 @@
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
-                />
-
+                android:layout_marginTop="10dp"/>
         </LinearLayout>
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -86,7 +70,6 @@
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_marginTop="-60dp">
-
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
@@ -95,24 +78,17 @@
                 android:layout_columnWeight="1"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:layout_margin="12dp"
-                >
-
+                android:layout_margin="12dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
-                    android:id="@+id/button_estadisticas"
-                   >
-
+                    android:id="@+id/button_estadisticas">
                     <ImageView
                         android:layout_width="58dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/stats_icon"
-
-                        />
-
+                        android:src="@drawable/stats_icon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -121,13 +97,8 @@
                         android:layout_marginStart="12dp"
                         android:textStyle="bold"
                         android:textColor="@color/my_primary"/>
-
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
-
-
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
@@ -136,22 +107,17 @@
                 android:layout_columnWeight="1"
                 android:layout_row="1"
                 android:layout_column="0"
-                android:layout_margin="12dp"
-                >
-
+                android:layout_margin="12dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:id="@+id/button_categorias">
-
                     <ImageView
                         android:layout_width="58dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/categories_icon"
-                        />
-
+                        android:src="@drawable/categories_icon" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -160,10 +126,7 @@
                         android:layout_marginStart="12dp"
                         android:textStyle="bold"
                         android:textColor="@color/my_primary"/>
-
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -173,23 +136,17 @@
                 android:layout_columnWeight="1"
                 android:layout_row="2"
                 android:layout_column="0"
-                android:layout_margin="12dp"
-                >
-
+                android:layout_margin="12dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:gravity="center"
                     android:id="@+id/button_consejos">
-
                     <ImageView
                         android:layout_width="58dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/idea_icon"
-
-                        />
-
+                        android:src="@drawable/idea_icon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -198,14 +155,8 @@
                         android:layout_marginStart="12dp"
                         android:textStyle="bold"
                         android:textColor="@color/my_primary"/>
-
                 </LinearLayout>
-
-
             </androidx.cardview.widget.CardView>
-
         </GridLayout>
-
     </RelativeLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

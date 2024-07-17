@@ -6,20 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Registrarse"
-    android:background="@color/white"
-    >
-
+    android:background="@color/white">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="28dp">
-
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-
+            android:layout_height="wrap_content">
             <ImageView
                 android:id="@+id/back_registrarse"
                 android:layout_width="32dp"
@@ -27,9 +22,7 @@
                 android:src="@drawable/back_icon"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                app:tint="@color/my_primary"
-                />
-
+                app:tint="@color/my_primary" />
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
@@ -39,9 +32,7 @@
                 android:textSize="32sp"
                 android:textStyle="bold"
                 android:layout_centerInParent="true"/>
-
         </RelativeLayout>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,13 +48,11 @@
             android:text="Nombre"
             android:alpha="0.7"
             android:textStyle="bold"/>
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:drawableEnd="@drawable/done_icon"/>
-
         <View
             android:layout_width="wrap_content"
             android:layout_height="10dp"/>
@@ -73,13 +62,11 @@
             android:text="Usuario"
             android:alpha="0.7"
             android:textStyle="bold"/>
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:drawableEnd="@drawable/done_icon"/>
-
         <View
             android:layout_width="wrap_content"
             android:layout_height="10dp"/>
@@ -89,13 +76,11 @@
             android:text="Correo electrónico"
             android:alpha="0.7"
             android:textStyle="bold"/>
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:drawableEnd="@drawable/done_icon"/>
-
         <View
             android:layout_width="wrap_content"
             android:layout_height="10dp"/>
@@ -105,7 +90,6 @@
             android:text="Contraseña"
             android:alpha="0.7"
             android:textStyle="bold"/>
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -120,13 +104,11 @@
             android:text="Confirmar contraseña"
             android:alpha="0.7"
             android:textStyle="bold"/>
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:drawableEnd="@drawable/password_icon"/>
-
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,7 +126,6 @@
             android:text="Registrarse"
             android:id="@+id/button_register"
             app:cornerRadius="32dp"/>
-
         <View
             android:layout_width="wrap_content"
             android:layout_height="10dp"/>
@@ -176,9 +157,6 @@
                 android:layout_height="40dp"
                 android:layout_margin="12dp"
                 android:background="@drawable/twitter"/>
-
         </LinearLayout>
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

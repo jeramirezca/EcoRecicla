@@ -38,22 +38,13 @@ public class Categorias extends AppCompatActivity {
         buttonPlastic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Categorias.this, RegistroVidrio.class);
-                startActivity(intent);
-            }
-        });
-
-        LinearLayout buttonGlass = findViewById(R.id.button_glass);
-        buttonPlastic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Categorias.this, RegistroVidrio.class);
+                Intent intent = new Intent(Categorias.this, RegistroPlastico.class);
                 startActivity(intent);
             }
         });
 
         LinearLayout buttonPaper = findViewById(R.id.button_paper);
-        buttonPlastic.setOnClickListener(new View.OnClickListener() {
+        buttonPaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Categorias.this, RegistroPapel.class);
@@ -62,10 +53,10 @@ public class Categorias extends AppCompatActivity {
         });
 
         LinearLayout buttonOrganic = findViewById(R.id.button_organic);
-        buttonPlastic.setOnClickListener(new View.OnClickListener() {
+        buttonOrganic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Categorias.this, RegistroPapel.class);
+                Intent intent = new Intent(Categorias.this, RegistroOrganic.class);
                 startActivity(intent);
             }
         });

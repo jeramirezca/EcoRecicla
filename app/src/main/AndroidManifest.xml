@@ -13,10 +13,13 @@
         android:theme="@style/Theme.EcoRecicla"
         tools:targetApi="31">
         <activity
+            android:name=".RegistroOrganic"
+            android:exported="false" />
+        <activity
             android:name=".RegistroOrganico"
             android:exported="false" />
         <activity
-            android:name=".RegistroVidrio"
+            android:name=".RegistroPlastico"
             android:exported="false" />
         <activity
             android:name=".RegistroPapel"
